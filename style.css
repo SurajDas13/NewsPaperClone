@@ -1,0 +1,192 @@
+@font-face {
+    font-family: domaine;
+    src: url(./font/DispCondMedium.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#page-1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #C4BCB3;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+#page-1 #nav {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(148, 142, 142);
+}
+
+#page-1 #nav img {
+    height: 23px;
+    width: 30%;
+}
+
+#page-1 #nav h5 {
+    font-size: 1rem;
+    font-family: domaine;
+    font-weight: 100;
+    width: 30%;
+}
+
+#page-1 #nav i {
+    font-size: 18px;
+    width: 30%;
+    text-align: right;
+}
+
+#page-1 #elems {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#page-1 #elem1 {
+    width: 33%;
+    height: 100%;
+
+
+}
+
+#page-1 #elem2 {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #5c5c5c;
+    border-left: 1px solid #5c5c5c;
+    padding: 20px 60px;
+    text-align: center;
+
+}
+
+#page-1 #elem3 {
+    width: 33%;
+    height: 100%;
+}
+
+#elem1 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#image-div:hover img {
+    scale: 1.1;
+}
+
+#image-div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#elem3 #image-div {
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+#elem1 h4 {
+    font-size: 2.5vh;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: canopee;
+}
+
+#elem3 h4 {
+    font-size: 2.5vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee;
+}
+
+#elem1 h4 span {
+    background-color: #B83C12;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 2vh;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#elem3 h4 span {
+    background-color: #B83C12;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 2vh;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#elem1 p {
+    font-size: 1rem;
+    font-family: domaine;
+    font-weight: 100;
+    color: #696560;
+}
+
+#elem3 p {
+    font-size:1rem;
+    font-family: domaine;
+    font-weight: 100;
+    color: #696560;
+}
+
+#elem2 h2 {
+    font-family: canopee;
+    font-size: 3.4rem;
+    font-weight: 100;
+
+}
+
+#elem2 h3 {
+    font-family: domaine;
+    font-size: 2.2rem;
+    font-weight: 100;
+    color: #31302f;
+    margin: 20px 0;
+
+}
+#elem2 h6 {
+    font-family: domaine;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #31302f;
+    margin-top: 30px;
+
+}
+
+#page-1 h1{
+    font-size: 36.6vw;
+    letter-spacing: -0.05em;
+    font-weight: 100;
+    font-family: canopee;
+    background-color: #1C1C1A;
+    color: #C5BEB4;
+    width: 96%;
+    line-height: 50vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 4.5vw 2vw 1vw;
+}
